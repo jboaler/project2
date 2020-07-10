@@ -1,0 +1,36 @@
+@media screen and (max-width: 320px) {
+  .testbutton {
+    display: none;
+  }
+  .pagetitle {
+    display: none;
+  }
+}
+
+.flexcontainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: right;
+      -ms-flex-pack: right;
+          justify-content: right;
+  margin-right: 10rem;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  width: 500px;
+}
+
+.nav {
+  background-color: lightblue;
+  border: 1px solid black;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  margin-left: 5px;
+  margin-right: 5px;
+  width: 40%;
+}
+/*# sourceMappingURL=styles.css.map */
