@@ -1,3 +1,4 @@
+/* Mobile view code */
 @media screen and (max-width: 320px) {
 
     .flexcontainer {
@@ -25,17 +26,25 @@
             order: 5;
         }
     }
-
-    
 }
-    
 
+    
+/* Body styles */
 body {
     margin-right: 100px;
     margin-left: 100px;
-    background-color: black;
+    background-color: grey;
+    
 }
 
+@media only screen and (min-width: 321px) {
+    body {
+        background-color: black;
+    }
+  }
+
+
+/* Link styles */
 a {
     color: hotpink;
     
@@ -50,10 +59,11 @@ a:visited {
 }
 
 
+
+
 .flexcontainer{
     display: flex;
-    flex-wrap: wrap;
-    background-color: black;
+    flex: wrap;
     
     justify-content: space-between;
 
@@ -63,6 +73,8 @@ a:visited {
     
 }
 
+
+/* Input and Button styles */
 .container {
     display: flex;
     justify-content: center;

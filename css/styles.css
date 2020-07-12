@@ -1,3 +1,4 @@
+/* Mobile view code */
 @media screen and (max-width: 320px) {
   .flexcontainer {
     display: -webkit-box;
@@ -38,12 +39,20 @@
   }
 }
 
+/* Body styles */
 body {
   margin-right: 100px;
   margin-left: 100px;
-  background-color: black;
+  background-color: grey;
 }
 
+@media only screen and (min-width: 321px) {
+  body {
+    background-color: black;
+  }
+}
+
+/* Link styles */
 a {
   color: hotpink;
 }
@@ -60,9 +69,9 @@ a:visited {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  background-color: black;
+  -webkit-box-flex: wrap;
+      -ms-flex: wrap;
+          flex: wrap;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
@@ -72,6 +81,7 @@ a:visited {
   color: whitesmoke;
 }
 
+/* Input and Button styles */
 .container {
   display: -webkit-box;
   display: -ms-flexbox;
