@@ -3,9 +3,10 @@
     .flexcontainer {
         display: flex;
         flex-direction: column;
+        align-items: center;
     }
 
-    .child1 {
+    .child {
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -33,7 +34,7 @@ body {
     flex-wrap: wrap;
     background-color: green;
     height: 600px;
-    justify-content: space-evenly;
+    justify-content: space-between;
 
     .child{
         background-color: red;
