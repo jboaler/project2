@@ -4,51 +4,70 @@
         display: flex;
         flex-direction: column;
         align-items: center;
-    }
 
-    .child {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        
-        
+        .pagetitle {
+            order: 1;
+        }
 
+        .navlinks { 
+            order: 2;
+        }
+
+        #item1 {
+            order: 3;
+        }
+
+        #item2 {
+            order: 4;
+        }
+
+        #item3 {
+            order: 5;
+        }
     }
 
     
-    
-
-    .searchbar {
-        display: flex;
-        align-content: center;
-    }
 }
+    
 
 body {
     margin-right: 100px;
     margin-left: 100px;
+    background-color: black;
 }
+
+a {
+    color: hotpink;
+    
+}
+
+a:hover {
+    color: green;
+}
+
+a:visited {
+    color: red;
+}
+
 
 .flexcontainer{
     display: flex;
     flex-wrap: wrap;
-    background-color: green;
-    height: 600px;
+    background-color: black;
+    
     justify-content: space-between;
 
-    .child{
-        background-color: red;
-        
-        
+    h2 {
+        color: whitesmoke;
     }
     
 }
-
-
 
 .container {
     display: flex;
     justify-content: center;
 }
+
+
 
 
