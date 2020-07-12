@@ -1,33 +1,53 @@
 @media screen and (max-width: 320px) {
-    .testbutton {
-        display: none;
+
+    .flexcontainer {
+        display: flex;
+        flex-direction: column;
     }
 
-    .pagetitle {
-        display: none;
+    .child1 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+        
+
     }
+
+    
+    
+
+    .searchbar {
+        display: flex;
+        align-content: center;
+    }
+}
+
+body {
+    margin-right: 100px;
+    margin-left: 100px;
 }
 
 .flexcontainer{
     display: flex;
-    flex-direction: row;
-    justify-content: right;
-    margin-right: 10rem;
     flex-wrap: wrap;
-    width: 500px;
+    background-color: green;
+    height: 600px;
+    justify-content: space-evenly;
+
+    .child{
+        background-color: red;
+        
+        
+    }
     
-
 }
 
 
 
-.nav {
-    background-color: lightblue;
-    border: 1px solid black;
-    margin-top: 5px;
-    margin-bottom: 5px;
-    margin-left: 5px;
-    margin-right: 5px;
-    width: 40%;
-
+.container {
+    display: flex;
+    justify-content: center;
 }
+
+
