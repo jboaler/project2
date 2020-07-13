@@ -48,7 +48,7 @@
 body {
   margin-right: 100px;
   margin-left: 100px;
-  margin-bottom: 50px;
+  margin-bottom: 100px;
   background-color: grey;
 }
 
@@ -110,21 +110,17 @@ h2 {
 
 /*Grid for displayed GIFS*/
 .gifoutput {
+  height: 1000px;
+  width: 1200px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-flex: wrap;
-      -ms-flex: wrap;
-          flex: wrap;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
   -webkit-box-pack: space-evenly;
       -ms-flex-pack: space-evenly;
           justify-content: space-evenly;
   margin-right: 120px;
   margin-left: 120px;
-}
-
-#footer {
-  position: fixed;
-  color: whitesmoke;
 }
 /*# sourceMappingURL=styles.css.map */

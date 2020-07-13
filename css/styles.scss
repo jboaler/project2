@@ -106,11 +106,14 @@ h2 {
 
 /*Grid for displayed GIFS*/
 .gifoutput {
+    height: 1000px;
+    width: 1200px;
     display: flex;
-    flex: wrap;
+    flex-wrap: wrap;
     justify-content: space-evenly;
     margin-right: 120px;
     margin-left: 120px;
+    
 }
 
 

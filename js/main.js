@@ -15,11 +15,7 @@ $(document).ready(()=> {
                 console.log("success " +data);
                 var outputData = "";
                 $.each( data.data, function( key, obj) {
-                    /* if (obj.id !=undefined) {
-                        cnt++
-                        var images="https://media1.giphy.com/media"+obj.id+"/giphy"+obj.type+
-                    } 
-                    */
+                    
                     var gifUrl = obj.images.downsized_large.url;
                     console.log("url= "+gifUrl);
                     outputData += "<span><img src='"+gifUrl+"'></span>"
