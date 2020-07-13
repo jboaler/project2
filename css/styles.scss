@@ -1,4 +1,4 @@
-/* Mobile view code */
+/* Media queries */
 @media screen and (max-width: 320px) {
 
     .flexcontainer {
@@ -25,6 +25,17 @@
         #item3 {
             order: 5;
         }
+
+        .gifoutput {
+            order: 6;
+        }
+    }
+}
+
+@media only screen and (min-width: 321px) {
+
+    body {
+        background-color: black;
     }
 }
 
@@ -37,17 +48,10 @@ body {
     
 }
 
-@media only screen and (min-width: 321px) {
-    body {
-        background-color: black;
-    }
-  }
-
 
 /* Link styles */
 a {
-    color: hotpink;
-    
+    color: hotpink;   
 }
 
 a:hover {
@@ -58,12 +62,13 @@ a:visited {
     color: red;
 }
 
+
 /* Google Title Font */
 h2 {
     font-family: Libre Baskerville, serif;
 }
 
-
+/* Spacing out title and nav links */
 .flexcontainer{
     display: flex;
     flex: wrap;
@@ -84,5 +89,10 @@ h2 {
 }
 
 
-
+/*Grid for displayed GIFS*/
+.gifoutput {
+    display: flex;
+    flex: wrap;
+    justify-content: space-evenly;
+}
 
