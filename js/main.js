@@ -20,7 +20,7 @@ $(document).ready(()=> {
                         var images="https://media1.giphy.com/media"+obj.id+"/giphy"+obj.type+
                     } 
                     */
-                    var gifUrl = obj._url;
+                    var gifUrl = obj.images.downsized_large.url;
                     console.log("url= "+gifUrl);
                     outputData += "<span><img src='"+gifUrl+"'></span>"
                 });

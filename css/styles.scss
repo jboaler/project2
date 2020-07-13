@@ -1,4 +1,4 @@
-/* Media queries */
+/* Mobile View */
 @media screen and (max-width: 320px) {
 
     .flexcontainer {
@@ -33,12 +33,12 @@
 }
 
 
-
     
 /* Body styles */
 body {
     margin-right: 100px;
     margin-left: 100px;
+    margin-bottom: 100px;
     background-color: grey;
     
 }
@@ -49,6 +49,7 @@ body {
         background-color: black;
     }
 }
+
 
 
 /* Link styles */
@@ -65,10 +66,13 @@ a:visited {
 }
 
 
+
 /* Google Title Font */
 h2 {
     font-family: Libre Baskerville, serif;
 }
+
+
 
 /* Spacing out title and nav links */
 .flexcontainer{
@@ -83,16 +87,21 @@ h2 {
     
 }
 
+
+
 /* Spacing out placeholder links */
 .linkspacing {
     padding-left: 20px;
 }
+
+
 
 /* Input and Button styles */
 .inputdata {
     display: flex;
     justify-content: center;
 }
+
 
 
 /*Grid for displayed GIFS*/
@@ -103,4 +112,6 @@ h2 {
     margin-right: 120px;
     margin-left: 120px;
 }
+
+
 

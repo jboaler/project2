@@ -1,4 +1,4 @@
-/* Media queries */
+/* Mobile View */
 @media screen and (max-width: 320px) {
   .flexcontainer {
     display: -webkit-box;
@@ -48,6 +48,7 @@
 body {
   margin-right: 100px;
   margin-left: 100px;
+  margin-bottom: 50px;
   background-color: grey;
 }
 
@@ -120,5 +121,10 @@ h2 {
           justify-content: space-evenly;
   margin-right: 120px;
   margin-left: 120px;
+}
+
+#footer {
+  position: fixed;
+  color: whitesmoke;
 }
 /*# sourceMappingURL=styles.css.map */
