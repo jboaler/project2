@@ -1,4 +1,4 @@
-/* Mobile View */
+/* Mobile view for page title and links */
 @media screen and (max-width: 320px) {
 
     .flexcontainer {
@@ -26,13 +26,20 @@
             order: 5;
         }
 
-        .gifoutput {
-            order: 6;
-        }
+        
     }
 }
 
-
+/* Mobile view for GIF output */
+@media screen and (max-width: 320px) {
+    .gifcontainer {
+        display: flex;
+        
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+    }
+}
     
 /* Body styles */
 body {
@@ -106,14 +113,13 @@ h2 {
 
 /*Grid for displayed GIFS*/
 .gifoutput {
-    height: 1000px;
-    width: 1200px;
+    
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
     margin-right: 120px;
     margin-left: 120px;
-    
+    margin-bottom: 300px;
 }
 
 
