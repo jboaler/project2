@@ -32,12 +32,7 @@
     }
 }
 
-@media only screen and (min-width: 321px) {
 
-    body {
-        background-color: black;
-    }
-}
 
     
 /* Body styles */
@@ -46,6 +41,13 @@ body {
     margin-left: 100px;
     background-color: grey;
     
+}
+
+@media only screen and (min-width: 321px) {
+
+    body {
+        background-color: black;
+    }
 }
 
 
@@ -94,5 +96,7 @@ h2 {
     display: flex;
     flex: wrap;
     justify-content: space-evenly;
+    margin-right: 120px;
+    margin-left: 120px;
 }
 

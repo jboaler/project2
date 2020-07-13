@@ -44,17 +44,17 @@
   }
 }
 
-@media only screen and (min-width: 321px) {
-  body {
-    background-color: black;
-  }
-}
-
 /* Body styles */
 body {
   margin-right: 100px;
   margin-left: 100px;
   background-color: grey;
+}
+
+@media only screen and (min-width: 321px) {
+  body {
+    background-color: black;
+  }
 }
 
 /* Link styles */
@@ -113,5 +113,7 @@ h2 {
   -webkit-box-pack: space-evenly;
       -ms-flex-pack: space-evenly;
           justify-content: space-evenly;
+  margin-right: 120px;
+  margin-left: 120px;
 }
 /*# sourceMappingURL=styles.css.map */
