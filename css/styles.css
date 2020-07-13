@@ -87,7 +87,7 @@ h2 {
 }
 
 /* Input and Button styles */
-.container {
+.inputdata {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
